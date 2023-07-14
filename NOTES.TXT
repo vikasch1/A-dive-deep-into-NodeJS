@@ -56,7 +56,13 @@ in nodejs - we have event loop and few queues.
 -require 
 -global
 -module
--
+
+----------------------------------------------------------------------------
+# Module patterns in Nodejs
+-module is a mechanism for splitting js program into seperate managable chunks called as module.that can be imported when needed.
+- we have two mechanism to create module 
+        -cjs - common javascript module
+        -esm - es6 module.
 
 
 
