@@ -1,0 +1,63 @@
+[ap6]
+Ques- What is Nodejs?
+-in browser there are a lot of features n functionalities are available to manipulate dom , to fetch some data(xml http requests)etc
+i.e document.getelementby id, by class
+these are not present in official js documentation i.e ecmascript
+-there is a concept of run time.
+-js basically runs inside a run time (to enhance capablity of js)
+-enhacement in terms of updating html attributes, css m,anipulation, execution of timer, downloading data.
+-browsers are actually act as a runtime.
+-run time provides some kind of apis to enhance js capablity.
+-run time provides callback queue,microtask queue etc.
+-earlier js was browser based runtimes.
+-in 2009 a person name Ryan Dahl.
+-Nodejs is not a framework instead its a runtime. we are directly able to run our js code inside terminal/shell .
+-browser based run time cant read our file system but nodejs does.
+-nodejs provides memory b as3ed ,architectural based features.
+-nodejs provides most of the os based features not browser based features.
+
+
+1- Features of NodeJS 
+    -open source 
+    -created by ryan dahl in 2009
+    -brings raw js features into our terminal so that we can actually interact with os based features.
+    -can make server side apps using nodejs and js as language.
+    -can make desktop apps.
+    -can make IOT based apps.
+    -provide file system feature.
+    -timer 
+    
+2- Internals of NodeJS
+    -globals
+    -modules patterns 
+    -streams
+
+
+
+
+# Input/output
+    -blocking and non blocking
+    -thread keeps us in blocking state (execution will only run after getting input/output from user).
+    -non blocking - threads running in parallel (async behaviour of js )
+
+in nodejs - we have event loop and few queues.
+- also we have event demultiplexer (inside run time )
+-nodejs provides non blocking architecture cz of event demultiplexer (high cost i/o operation resides inside event demultiplexer and then sent to diff queue)
+-js api+v8 engine +lib uv +bindings - arcjitecture of nodejs
+- lib us written in c++ bu nodejs team 
+- blocking to non blocking io.
+-
+
+
+
+#Globals in nodejs.
+-process globals
+- __dirname
+-require 
+-global
+-module
+-
+
+
+
+
