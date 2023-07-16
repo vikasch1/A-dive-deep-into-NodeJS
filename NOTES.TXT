@@ -64,6 +64,16 @@ in nodejs - we have event loop and few queues.
         -cjs - common javascript module
         -esm - es6 module.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Streams in nodejs
+    -reading/writting data in smaller chunks.
+    -A stream is an abstract interface for working with streaming data in Node.js. The node:stream module provides an API for implementing the stream interface.
+There are many stream objects provided by Node.js. For instance, a request to an HTTP server and process.stdout are both stream instances.
+
+-file - read file in chunk mode - pipe the content to output stream.
+.pipe()
+
+
 
 
 
